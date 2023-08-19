@@ -1,0 +1,66 @@
+.container{
+   margin-top: 20px;
+   box-shadow: 0 0 0 5px whitesmoke;
+   padding:2em;
+}
+.info{
+  margin-left: 20px;
+  width:32vw;
+  padding:0.3em;
+}
+.btn{
+  margin-top: 30px;
+  width:33vw;
+  padding:0.3em;
+  margin-left: 20px;
+  background-color: rgba(69, 69, 236, 0.884);
+  font-size:1em;
+  color: white;
+  border-radius:5px;
+  border-collapse: collapse;
+}
+ 
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./line.png');
+  background-size: 100% 100%;
+  background-position-x:left;
+  background-repeat: no-repeat;
+
+}
+.first-heading{
+  margin-left: 20px;
+  color: rgba(160, 153, 153, 0.961);
+  
+}
+.forget{
+  margin-left:1.8em;
+  text-decoration:none;
+  color:rgb(12, 118, 167);
+  line-height:3;
+}
+/* profile page's css */
+.profile{
+  border:2em solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  color: black;
+  margin-left: 2em;
+    margin-right: 2em;
+    width: 90vw;
+    height: auto;
+}
+.detail{
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: 1em;
+}
+.image{
+  margin-bottom: 1em;
+  margin-left: -4em;
+  margin-top: -4em;
+}
